@@ -1,11 +1,12 @@
-iv=num1/num2
-print("The quotient when num1 is divided num2 is:",div)num1=int(input("Enter num1:"))
-num2=int(input("Enter num2:"))
-num3=int(input("Enter num3:"))
-sum=num1+num2
-print("The sum of num1 and num2 is:",sum)
-Difference=num2-num1
-print("The difference when num2 is subtracted from num1 is:",Difference)
-multi_result=num1*num2
-print("The product of num1 and num2 is:",multi_result)
-d
+'''
+Author:Amala Manoj
+Date:25-10-2024
+'''temperature=int(input("Enter temperature:"))
+scale=input("Is this in(C)elsius or (F)ahrenheit?")
+f=(9/5*temperature)+32
+if scale=="c":
+
+    print(temperature,"celsius is",f,"fahrenheit")
+else:
+    c=5/9*(temperature-32)
+    print(temperature,"fahrenheit is",c,"celsius")
