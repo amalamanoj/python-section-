@@ -1,0 +1,19 @@
+import random
+while True:
+    options=["rock","scissors","paper"]
+    choice=input("your options are rock or scissors,paper\n[type 'exit' to quit\nchoose!:")
+    selection=random.choice(options)
+    print(choice)
+    print(selection)
+    if choice=='scissors'and selection=='paper':
+        print("you win")
+    elif choice =='paper' and selection=='rock':
+        print("you win")
+    elif choice =='rock'and selection=='scissors':
+        print("you win")
+    elif selection==choice:
+        print("its tie")
+    else:
+        print("you lose")
+
+
