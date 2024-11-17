@@ -1,0 +1,10 @@
+'''
+Author:Amala Manoj
+Date:17-11-2024
+'''
+bill=int(input("Enter the bill:"))
+tip_per=int(input("Enter the tip percentage:"))
+tip=(bill*tip_per)/100
+total_bill=(bill+tip)
+print("Tip amount:",tip)
+print("Total amount to be paid :",total_bill)
