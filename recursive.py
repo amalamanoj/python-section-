@@ -1,3 +1,6 @@
+'''
+Author:Amala Manoj
+Date:29-11-2024
 def is_valid_mobile_number(number):
     if len(number)==10 and number[0] in ["9","8","7"]:
         print("It is a valid number")
