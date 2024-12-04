@@ -5,4 +5,4 @@ def gcd(num1,num2):
         return gcd(num2,num1%num2)
 num1=int(input("Enter a number:"))
 num2=int(input("Enter a number:"))
-print("The result is ",gcd(1220,516))
+print("The result is ",gcd(num1,num2))
