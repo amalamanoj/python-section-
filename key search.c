@@ -1,3 +1,5 @@
+Author-Amala Manoj
+Date-11-02-2025
 //To perform a sequential search in a one dimensional array.
 #include <stdio.h>
 int main()
