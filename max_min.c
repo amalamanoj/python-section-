@@ -1,3 +1,5 @@
+Author:Amala Manoj
+Date- 11-02-2025
 //To find maximum and minimum elements
 #include <stdio.h>
 int main()
