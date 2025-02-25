@@ -1,5 +1,5 @@
-Author:Amala Manoj
-Date:25-02-2025
+/*Author:Amala Manoj
+Date:25-02-2025*/
 //To count frequency
 #include <stdio.h>
 int main()
